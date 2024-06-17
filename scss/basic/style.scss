@@ -1,0 +1,35 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', 'Courier', 'monospace';
+    
+}
+h1,h2,h3,h4,h5,h6,ul,ol,li,p,input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+@import "../block/header";
+@import "../block/hamburger";
+@import "../block/modal";
+@import "../block/reabelitation";
+@import "../block/perks";
+@import "../block/price";
+@import "../block/splide";
+@import "../block/cases";
+@import "../basic/btn";
+@import "../basic/media";

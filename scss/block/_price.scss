@@ -1,0 +1,34 @@
+.price {
+    padding: 40px 0;
+    h2 {
+        font-size: 40px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__item {
+        width: 600px;
+        min-height: 400px;
+        background-color: #dbd9d9;  
+        box-shadow: 1px 1px 3px #888888;
+        padding: 20px;
+        &-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;           
+        }
+        &-descr {
+            font-size: 22px;
+            line-height: 22px;
+            display: block;
+            margin: 0 auto;
+            font-weight: 700;
+            margin-top: 20px;
+            width: 500px;
+        }
+    }
+    
+}
